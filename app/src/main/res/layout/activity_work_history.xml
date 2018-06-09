@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorkHistoryActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work History"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:lineSpacingExtra="300sp"
+                android:text=" - Senior Software Engineer + App developer @ Concur"
+                android:textColorLink="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" * Breaking a monolith into smaller microservices
+   Springboot, AWS, Docker, Kafka, Java 8
+* TDD, Pairing programming" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="- Software Engineer @ marksandspencer.com"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" Software engineer with the M+S API and Services team, building microservices on AWS using Docker, Terraform, and EC2. ATDD testing of stateless RESTFul API's using:- \n
+ - Springboot (Java 8)
+ - Gradle
+ - WireMock + Mockito to support mocking services
+ - JavaScript, Swagger, Mocha, NodeJS, PromiseJS
+ - CloudFoundry + CodeShip (more recently Concourse) for CI
+ - ApiGee for API endpoint hosting
+ - AWS , EC2, S3 buckets for data management, ElasticBeanStalk , AWS CLI
+
+ Additionally working with (for other projects): -
+ - Fastly
+ - Docker
+ - Concourse for CI
+ - AWS (VPC, Peering Connection, EBS Volumes, Subnets,  Route53, SNS, CloudWatch, IAM, Lambda, Athena)
+ - Terraform, Consul
+ - Dropwizard
+ - Apache Kafka
+ - Automated ATDD, Integration, Smoke and Unit testing
+ - Monitoring and logging - Kibana, Prometheus, Grafana"
+                android:textAlignment="viewStart"
+                android:textDirection="ltr" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="- Lead Software Engineer in Test @ Yell.com"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_weight="1"
+                android:text=" Focus on service/API level unit and integration tests (SOAP, moving to REST) using Java (Jersey, JAXB) with JBehave BDD framework.
+
+ Developed suite of RabbitMQ unit level test using Java ampq libraries to create Exchanges and Queues
+
+ Practised TDD pairing, and led the move to Java 8" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" - Software Engineer in Test @ Fiserv"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
